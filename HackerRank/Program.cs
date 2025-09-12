@@ -96,3 +96,12 @@ void Staircase(int n)
         Console.WriteLine(str + hash);
     }
 }
+
+//Mini - Max Sum - 8
+void MiniMaxSum(List<int> arr)
+{
+    long total = arr.Select(x => (long)x).Sum();
+    long minSum = total - arr.Max();
+    long maxSum = total - arr.Min();
+    Console.WriteLine($"{minSum} {maxSum}");
+}
