@@ -1,13 +1,12 @@
 ﻿//Solve Me First -1
-int solveMeFirst(int a, int b)
+int SolveMeFirst(int a, int b)
 {
     return a + b;
 }
 
 //Simple Array  -2
-int simpleArraySum(List<int> ar)
+int SimpleArraySum(List<int> ar)
 {
-
     int sum = 0;
     for (int i = 0; i < ar.Count; i++)
     {
@@ -17,7 +16,7 @@ int simpleArraySum(List<int> ar)
 }
 
 //Compare the Triplets -3
-List<int> compareTriplets(List<int> a, List<int> b)
+List<int> CompareTriplets(List<int> a, List<int> b)
 {
     int aliceCount = 0;
 int bobCount = 0;
@@ -36,7 +35,7 @@ return new List<int> { aliceCount, bobCount };
 }
 
 //A Very Big Sum - 4
-long aVeryBigSum(List<long> ar)
+long AVeryBigSum(List<long> ar)
 {
     long bigCount = 0;
     for (int i = 0; i < ar.Count; i++)
@@ -47,7 +46,7 @@ long aVeryBigSum(List<long> ar)
 }
 
 //Diagonal Difference - 5
-int diagonalDifference(List<List<int>> arr)
+int DiagonalDifference(List<List<int>> arr)
 {
     int n = arr.Count;
     int primary = 0;
@@ -61,7 +60,7 @@ int diagonalDifference(List<List<int>> arr)
 }
 
 //Plus Minus - 6
-void plusMinus(List<int> arr)
+void PlusMinus(List<int> arr)
 {
     int n = arr.Count;
     int negativCount = 0;
@@ -85,4 +84,15 @@ void plusMinus(List<int> arr)
     Console.WriteLine(((double)positiveCount / n).ToString("F6"));
     Console.WriteLine(((double)negativCount / n).ToString("F6"));
     Console.WriteLine(((double)zeroCount / n).ToString("F6"));
+}
+
+//Staircase - 7
+void Staircase(int n)
+{
+    for (int i = 1; i <= n; i++)
+    {
+        string str = new string(' ', n - i);
+        string hash = new string('#', i);
+        Console.WriteLine(str + hash);
+    }
 }
