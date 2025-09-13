@@ -105,3 +105,24 @@ void MiniMaxSum(List<int> arr)
     long maxSum = total - arr.Min();
     Console.WriteLine($"{minSum} {maxSum}");
 }
+
+//Birthday Cake Candles - 9
+//1
+int BirthdayCakeCandles(List<int> candles)
+{
+    int candlesCount = 0;
+    for (int i = 0; i < candles.Count; i++)
+    {
+        if (candles[i] == candles.Max())
+        {
+            candlesCount++;
+        }
+    }
+    return candlesCount;
+}
+//2
+int BirthdayCakeCandles2(List<int> candles)
+{
+    int max = candles.Max();
+    return candles.Count(c => c == max);
+}
