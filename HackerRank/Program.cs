@@ -126,3 +126,10 @@ int BirthdayCakeCandles2(List<int> candles)
     int max = candles.Max();
     return candles.Count(c => c == max);
 }
+
+//Time Conversion - 10
+string TimeConversion(string s)
+{
+    DateTime time24Hour = DateTime.Parse(s);
+    return time24Hour.ToString("HH:mm:ss");
+}
