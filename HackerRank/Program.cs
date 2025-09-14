@@ -133,3 +133,29 @@ string TimeConversion(string s)
     DateTime time24Hour = DateTime.Parse(s);
     return time24Hour.ToString("HH:mm:ss");
 }
+
+//Grading Students - 11
+List<int> GradingStudents(List<int> grades)
+{
+    List<int> gradeslist = new List<int>();
+    foreach (int grade in grades)
+    {
+        if (grade < 38)
+        {
+            gradeslist.Add(grade);
+        }
+        else
+        {
+            int difference = 5 - (grade % 5);
+            if (difference < 3)
+            {
+                gradeslist.Add(grade + difference);
+            }
+            else
+            {
+                gradeslist.Add(grade);
+            }
+        }
+    }
+    return gradeslist;
+}
