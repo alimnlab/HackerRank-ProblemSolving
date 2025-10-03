@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Back-End\\HackerRank\\",
+  "WorkspaceRootPath": "C:\\Users\\alimanchr\\Desktop\\C#\\HackerRank-ProblemSolving\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12323329-EF0C-48A4-A21F-B82C57019844}|HackerRank\\HackerRank.csproj|c:\\back-end\\hackerrank\\hackerrank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12323329-EF0C-48A4-A21F-B82C57019844}|HackerRank\\HackerRank.csproj|c:\\users\\alimanchr\\desktop\\c#\\hackerrank-problemsolving\\hackerrank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12323329-EF0C-48A4-A21F-B82C57019844}|HackerRank\\HackerRank.csproj|solutionrelative:hackerrank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Back-End\\HackerRank\\HackerRank\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\alimanchr\\Desktop\\C#\\HackerRank-ProblemSolving\\HackerRank\\Program.cs",
               "RelativeDocumentMoniker": "HackerRank\\Program.cs",
-              "ToolTip": "C:\\Back-End\\HackerRank\\HackerRank\\Program.cs",
+              "ToolTip": "C:\\Users\\alimanchr\\Desktop\\C#\\HackerRank-ProblemSolving\\HackerRank\\Program.cs",
               "RelativeToolTip": "HackerRank\\Program.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAuwIkAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAADwv6MAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-12T18:45:44.136Z",
               "EditorCaption": ""

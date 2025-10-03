@@ -159,3 +159,32 @@ List<int> GradingStudents(List<int> grades)
     }
     return gradeslist;
 }
+
+
+//Apple and Orange - 12
+void countApplesAndOranges(int s, int t, int a, int b, List<int> apples, List<int> oranges)
+{
+    int appleCount = 0;
+    int orangeCount = 0;
+    int landingPosition = 0;
+    foreach (int apple in apples)
+    {
+        landingPosition = a + apple;
+        if (landingPosition >= s && landingPosition <= t)
+        {
+            appleCount++;
+        }
+    }
+
+    foreach (int orange in oranges)
+    {
+        landingPosition = b + orange;
+        if (landingPosition >= s && landingPosition <= t)
+        {
+            orangeCount++;
+        }
+    }
+
+    Console.WriteLine(appleCount);
+    Console.WriteLine(orangeCount);
+}
